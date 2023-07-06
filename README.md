@@ -10,6 +10,9 @@ https://www.vbforums.com/showthread.php?848839-VBFlexGrid-Control-(Replacement-o
 
 
 **Notes**
-This is currently set up like the StdExe version.
 
-Property pages have been prepared for x64 but tB does not yet support them for in-project controls (.ctl as opposed to .ocx). 
+-This is currently set up like the StdExe version.
+
+-Property pages have been prepared for x64 but tB does not yet support them for in-project controls (.ctl as opposed to .ocx). 
+
+-For this project I made an x64 version of OLEGuids; the project files are included here, but it's built into VBFlexGridDemo.twinproj too, so are included only for use in other projects.
