@@ -1,0 +1,86 @@
+[
+   {
+      "StartUpPosition": 1,
+      "ShowInTaskbar": 0,
+      "ScaleWidth": 4575,
+      "ScaleHeight": 2085,
+      "MinButton": 0,
+      "MaxButton": 0,
+      "LinkTopic": "Form1",
+      "ClientWidth": 4575,
+      "ClientTop": 375,
+      "ClientLeft": 45,
+      "ClientHeight": 2085,
+      "Caption": "Input",
+      "BorderStyle": 3,
+      "FontName":"MS Sans Serif",
+      "_clsid": "{33AD4F38-6699-11CF-B70C-00AA0060D393}",
+      "FormDesignerId": "{2E769206-882C-4917-B6DF-9099C82182E2}",
+      "Width":305,
+      "Height":139,
+      "Name":"InputForm",
+      "_children": [      {
+         "Width":289,
+         "Top":8,
+         "TabIndex": 2,
+         "Left":8,
+         "Height":28,
+         "FontName":"MS Sans Serif",
+         "_clsid": "{33AD4ED8-6699-11CF-B70C-00AA0060D393}",
+         "_className": "Label",
+         "Name":"Label1"
+      },
+            {
+         "Width":289,
+         "Top":40,
+         "TabIndex": 0,
+         "ScrollBars": 2,
+         "MultiLine": -1,
+         "Left":8,
+         "Height":60,
+         "FontName":"MS Sans Serif",
+         "_clsid": "{33AD4EE0-6699-11CF-B70C-00AA0060D393}",
+         "_className": "TextBox",
+         "Name":"Text1"
+      },
+            {
+         "Width":97,
+         "Top":112,
+         "TabIndex": 3,
+         "Left":8,
+         "Height":21,
+         "Caption": "&OK",
+         "FontName":"MS Sans Serif",
+         "_clsid": "{33AD4EF0-6699-11CF-B70C-00AA0060D393}",
+         "_className": "CommandButton",
+         "Name":"Command1"
+      },
+            {
+         "Width":97,
+         "Top":112,
+         "TabIndex": 4,
+         "Left":200,
+         "Height":21,
+         "Caption": "&Cancel",
+         "Cancel": -1,
+         "FontName":"MS Sans Serif",
+         "_clsid": "{33AD4EF0-6699-11CF-B70C-00AA0060D393}",
+         "_className": "CommandButton",
+         "Name":"Command2"
+      },
+            {
+         "Width":289,
+         "Visible": 0,
+         "Top":40,
+         "TabIndex": 1,
+         "ScrollBars": 2,
+         "Left":8,
+         "Height":21,
+         "FontName":"MS Sans Serif",
+         "_clsid": "{33AD4EE0-6699-11CF-B70C-00AA0060D393}",
+         "_className": "TextBox",
+         "Name":"Text2"
+      }
+      ]
+   }
+]

@@ -1,0 +1,71 @@
+[ FormDesignerId ("2E769206-882C-4917-B6DF-9099C82182E2") ]
+[ ClassId ("930B0938-7114-47B6-94B9-2312C03E51C3") ]
+[ InterfaceId ("FD160835-D76C-4CEC-8434-1645FC170943") ]
+[ EventInterfaceId ("C7039858-FE6B-456E-BB31-806389A16BE8") ]
+Class InputForm
+    Attribute VB_Name = "InputForm"
+    Attribute VB_GlobalNameSpace = False
+    Attribute VB_Creatable = False
+    Attribute VB_PredeclaredId = True
+    Attribute VB_Exposed = False
+    Option Explicit
+    Private PropSearchMode As Boolean
+    Private PropPrompt As String, PropDefaultText As String
+    Private PropResult As String
+    
+    Public Property Get SearchMode() As Boolean
+    SearchMode = PropSearchMode
+    End Property
+    
+    Public Property Let SearchMode(ByVal Value As Boolean)
+    PropSearchMode = Value
+    End Property
+    
+    Public Property Get Prompt() As String
+    Prompt = PropPrompt
+    End Property
+    
+    Public Property Let Prompt(ByVal Value As String)
+    PropPrompt = Value
+    End Property
+    
+    Public Property Get DefaultText() As String
+    DefaultText = PropDefaultText
+    End Property
+    
+    Public Property Let DefaultText(ByVal Value As String)
+    PropDefaultText = Value
+    End Property
+    
+    Public Property Get Result() As String
+    Result = PropResult
+    End Property
+    
+    Private Sub Form_Load()
+    Call SetupVisualStylesFixes(Me)
+    Label1.Caption = PropPrompt
+    If PropSearchMode = True Then
+        Text2.Visible = True
+        Text1.Visible = False
+        Command1.Default = True
+    Else
+        Text1.Text = PropDefaultText
+    End If
+    End Sub
+    
+    Private Sub Command1_Click()
+    If PropSearchMode = True Then
+        PropResult = Text2.Text
+    Else
+        PropResult = Text1.Text
+    End If
+    If PropResult = vbNullString Then PropResult = ""
+    Unload Me
+    End Sub
+    
+    Private Sub Command2_Click()
+    Unload Me
+    End Sub
+    
+
+End Class

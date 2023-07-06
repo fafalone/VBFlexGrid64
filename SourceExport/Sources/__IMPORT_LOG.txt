@@ -1,0 +1,33 @@
+
+Import from Visual Basic VBP file 'C:\tbproj\VBFlexGrid64\VBFlexGridDemo\VBFlexGridDemo.vbp'...
+   successfully set project.buildType to 'Standard EXE' at line #1
+   successfully added project.reference 'OLE Automation' at line #2
+   successfully added project.reference 'OLE Guid and interface definitions' at line #3
+   ***WARNING*** converted relative reference path from '..\..\..\..\Windows\SysWOW64\msdatsrc.tlb' to '\\?\Windows\SysWOW64\msdatsrc.tlb' at line #4
+   successfully added project.reference 'Microsoft Data Source Interfaces for ActiveX Data Binding Type Library' at line #4
+   successfully imported MODULE 'Common\Common.bas' at line #8
+   successfully imported MODULE 'Common\Startup.bas' at line #9
+   successfully imported MODULE 'Common\VisualStyles.bas' at line #10
+   successfully imported MODULE 'Builds\VTableHandle.bas' at line #11
+   successfully imported MODULE 'Builds\VBFlexGrid\VBFlexGridBase.bas' at line #12
+   successfully imported CLASS 'Builds\VBFlexGrid\IVBFlexDataSource.cls' at line #14
+   ***FAILED*** unsupported document 'Builds\VBFlexGrid\PPVBFlexGridGeneral.pag' type 'PropertyPage' at line #15
+   ***FAILED*** unsupported document 'Builds\VBFlexGrid\PPVBFlexGridStyle.pag' type 'PropertyPage' at line #16
+   successfully imported CLASS 'Builds\VBFlexGrid\IVBFlexDataSource2.cls' at line #17
+   successfully imported RESOURCE FILE 'Resources\Resources.res' at line #18
+   successfully set project.startupObject to 'Sub Main' at line #20
+   successfully set project.appHelpFile to '' at line #21
+   successfully set project.appTitle to 'VBFlexGrid' at line #22
+   successfully imported Command Line Arguments '' at line #24
+   successfully set project.name to 'VBFlexGridDemo' at line #25
+   successfully set project.versionMajor to '1' at line #28
+   successfully set project.versionMinor to '0' at line #29
+   successfully set project.versionRevision to '0' at line #30
+   successfully set project.versionCompanyName to 'Home' at line #33
+   successfully imported USERCONTROL 'Builds\VBFlexGrid\VBFlexGrid.ctl' at line #13
+   successfully imported FORM 'UserEditingForm.frm' at line #7
+   successfully imported FORM 'InputForm.frm' at line #6
+   successfully imported FORM 'MainForm.frm' at line #5
+IMPORT FINISHED WITH 2 ERRORS/WARNINGS
+
+(you can delete this log file)
