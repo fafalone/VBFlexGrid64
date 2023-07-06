@@ -19578,6 +19578,7 @@ Select Case wMsg
         End If
     Case WM_KEYDOWN, WM_KEYUP, WM_SYSKEYDOWN, WM_SYSKEYUP
         Dim KeyCode As Integer
+        KeyCode = wParam And &HFF&
         If wMsg = WM_KEYDOWN Or wMsg = WM_KEYUP Then
             If wMsg = WM_KEYDOWN Then
                 RaiseEvent KeyDown(KeyCode, GetShiftStateFromMsg())
@@ -20292,7 +20293,7 @@ Select Case wMsg
             CopyMemory wParamLow, wParam, 4
             KeyChar = CUIntToInt(wParamLow And &HFFFF&)
             #Else
-            KeyChar = CUIntToInt(wParam And &HFFFF&)	
+            KeyChar = CUIntToInt(wParam And &HFFFF&)
             #End If
         End If
         RaiseEvent EditKeyPress(KeyChar)
