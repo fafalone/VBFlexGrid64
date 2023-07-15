@@ -1,5 +1,11 @@
 # VBFlexGrid64
 
+**The 64bit compatible version has now been released by Krool, so this repository has been archived. The version here is likely out of date.**
+New versions can be downloaded via the twinBASIC Package Manager, or it's [official GitHub repo](https://github.com/Kr00l/VBFLXGRD).
+
+---
+
+
 This is an x64-compatible port of Krool's VBFlexGrid for twinBASIC
 
 https://github.com/Kr00l/VBFLXGRD
